@@ -48,7 +48,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         //Rod
         Author rod = new Author("Rod", "Johnson");
         Publisher tata = new Publisher("tata", "vallauris");
-        Book noEJB = new Book("J2EE Development without EJB", "23444", toto );
+        Book noEJB = new Book("J2EE Development without EJB", "23444", tata );
         rod.getBooks().add(noEJB);
         noEJB.getAuthors().add(rod);
 
